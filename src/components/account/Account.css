@@ -1,0 +1,74 @@
+.logB{
+    height: 100vh;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/3d6cf7c4-ad17-457a-b6cf-ea952926ba74/54a0de92-feb4-4891-8cb3-00a794ec89f6/IN-en-20230206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    /* background: url(./hr1-1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.shadow{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: linear-gradient(to bottom , rgba(20, 20, 20, 0.7) 20%, transparent  50% , rgba(20, 20, 20, 0.7));
+}
+.account{
+    background: rgba(0, 0, 0, 0.825);
+    color: #fff;
+    padding: 3rem;
+    width: 330px;
+    position: relative;
+    z-index: 5;
+}
+
+.login .logInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.logInput input{
+ height: 2.5rem; 
+ background: #333333;
+ border: none;
+ margin-bottom: 1rem;
+ font-size: 1rem;
+ padding-left: 10px;
+ color: #fff;
+ outline: none;
+}
+.login .in{
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 10px 0px;
+    background: #e50914;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 5rem;
+    color: gray;
+}
+.uposite{
+    display: flex;
+    justify-content: end;
+}
+.uposite button{
+    color: gray;
+    background: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-weight: 550;
+}

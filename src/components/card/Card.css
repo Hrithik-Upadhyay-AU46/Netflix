@@ -1,0 +1,18 @@
+.cardPoster{
+    height: 22vh;
+    border-radius: 5px;
+    object-fit: contain;
+    transition: 0.4s;
+    
+}
+.card:hover .cardPoster{
+    height: 26vh
+
+}
+.card{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.cardId{
+    display: none;
+}
