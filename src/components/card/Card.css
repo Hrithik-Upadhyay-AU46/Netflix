@@ -16,3 +16,13 @@
 .cardId{
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .cardPoster{
+        height: 25vw;
+        border-radius: 5px;
+        object-fit: contain;
+        transition: 0.4s;
+        
+    }
+  }

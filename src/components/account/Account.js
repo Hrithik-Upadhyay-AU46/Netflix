@@ -70,6 +70,10 @@ const Account = () => {
       // })
       naviagte("/home")
     }
+    else if(logD.status==="Password is incorect"){
+      alert('password is incorect')
+      
+    }
 
     
    }
@@ -84,7 +88,7 @@ const Account = () => {
         <h1>Sign in</h1>
         <div className='logInput'>
           <input type='email' id='logemail' name='email' placeholder='Email' />
-          <input type='password' id='logpassword' name='email' placeholder='Password' />
+          <input type='password' id='logpassword' name='password' placeholder='Password' />
         </div>
         <button className='in' onClick={loginData}>Sign In</button>
         <div className='uposite'><button onClick={toggleAccount}>Sign Up</button></div>

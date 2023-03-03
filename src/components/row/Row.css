@@ -26,3 +26,16 @@
 .row::-webkit-scrollbar{
     display: none;
 }
+
+@media only screen and (max-width: 700px) {
+  
+.row{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    height: 38vw;
+    color: #fff;
+    overflow-x: scroll;
+    
+}
+  }

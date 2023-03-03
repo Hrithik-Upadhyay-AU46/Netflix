@@ -92,3 +92,36 @@ iframe .cut{
     right: 0;
     z-index: 20;
 }
+
+@media only screen and (max-width: 700px) {
+  
+    .mvImg{
+        padding-top: 5vh;
+        height: 70vw;
+        object-fit: cover;
+        object-position: center;
+      
+      
+    }
+    .mvDetails{
+        position: relative;
+        /* height: 100%; */
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: black;
+        background: linear-gradient(to right , rgb(10, 10, 10) 25%, transparent);
+        z-index: 2;
+        color: lightgray;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+       
+    }
+    .mvDetails .mvInner{
+        width: 99vw;
+        margin-left: 0.5vh;
+        padding-bottom: 29vh;
+        box-sizing: border-box;
+    }
+      }

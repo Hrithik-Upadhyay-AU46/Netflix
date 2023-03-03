@@ -5,6 +5,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    position: relative;
 }
 
 .headerContent{
@@ -82,3 +83,16 @@ color: #fff;
     linear-gradient(180deg, rgba(20, 20, 20, 0.7) 0%, rgba(20, 20, 20, 0) 100%);
 box-shadow: 0px 0px 0px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+    header{
+        height: 37vh;
+        background: url(https://occ-0-2482-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfB_3OdRtaz66PnsryT47lx0db9ALFEBkiiRwf0sCaZ8-QKE1CEb6x3BGo9D5u7rQ4aDLUJyPSiXHt9GAmTBjX3GcNyU1EhW6sqn.webp?r=50f);
+        /* background: url(./hr1-1.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+  }
